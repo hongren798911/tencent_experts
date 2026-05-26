@@ -4,7 +4,7 @@
   "author": "AgentOS Demo",
   "paths": {
     "avatarsPath": "avatars",
-    "expertsPath": "experts"
+    "expertsPath": ""
   },
   "statistics": {
     "totalExperts": 6,
@@ -43,7 +43,7 @@
         "zh": "精通 Python、FastAPI、异步编程，擅长代码架构设计与性能优化，15 年开发经验",
         "en": "Expert in Python, FastAPI, async programming, 15 years experience"
       },
-      "promptFile": { "zh": "experts/zh/python-senior.md", "en": "experts/en/python-senior.md" },
+      "promptFile": { "zh": "zh/python-senior.md", "en": "en/python-senior.md" },
       "avatar": "https://img.shields.io/badge/🐍-Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=555555",
       "tags": {
         "zh": ["Python", "FastAPI", "后端", "异步", "架构"],
@@ -63,7 +63,7 @@
         "zh": "精通 React、TypeScript、现代 CSS，擅长组件设计与前端工程化，10 年经验",
         "en": "Expert in React, TypeScript, modern CSS, 10 years experience"
       },
-      "promptFile": { "zh": "experts/zh/frontend-senior.md", "en": "experts/en/frontend-senior.md" },
+      "promptFile": { "zh": "zh/frontend-senior.md", "en": "en/frontend-senior.md" },
       "avatar": "https://img.shields.io/badge/⚛️-React-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=555555",
       "tags": {
         "zh": ["React", "TypeScript", "CSS", "前端工程化"],
@@ -83,7 +83,7 @@
         "zh": "精通 Docker、K8s、CI/CD、云原生架构，擅长自动化运维与基础设施即代码",
         "en": "Expert in Docker, K8s, CI/CD, cloud-native, Infrastructure as Code"
       },
-      "promptFile": { "zh": "experts/zh/devops-engineer.md", "en": "experts/en/devops-engineer.md" },
+      "promptFile": { "zh": "zh/devops-engineer.md", "en": "en/devops-engineer.md" },
       "avatar": "https://img.shields.io/badge/🐳-DevOps-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=555555",
       "tags": {
         "zh": ["Docker", "K8s", "CI/CD", "云原生", "IaC"],
@@ -103,7 +103,7 @@
         "zh": "专注代码审查，覆盖安全漏洞、性能瓶颈、可维护性、最佳实践，给出具体改进建议",
         "en": "Focused on code review covering security, performance, maintainability, best practices"
       },
-      "promptFile": { "zh": "experts/zh/code-reviewer.md", "en": "experts/en/code-reviewer.md" },
+      "promptFile": { "zh": "zh/code-reviewer.md", "en": "en/code-reviewer.md" },
       "avatar": "https://img.shields.io/badge/🔍-Code_Review-8B5CF6?style=for-the-badge&logo=reviews&logoColor=white&labelColor=555555",
       "tags": {
         "zh": ["代码审查", "安全", "性能", "可维护性"],
@@ -123,7 +123,7 @@
         "zh": "专注 Web 应用安全、OWASP Top 10、渗透测试、安全架构设计，提供合规与漏洞修复建议",
         "en": "OWASP Top 10, penetration testing, secure architecture design"
       },
-      "promptFile": { "zh": "experts/zh/security-auditor.md", "en": "experts/en/security-auditor.md" },
+      "promptFile": { "zh": "zh/security-auditor.md", "en": "en/security-auditor.md" },
       "avatar": "https://img.shields.io/badge/🛡️-Security-EF4444?style=for-the-badge&logo=shield&logoColor=white&labelColor=555555",
       "tags": {
         "zh": ["安全", "OWASP", "渗透测试", "合规"],
@@ -143,7 +143,7 @@
         "zh": "擅长撰写 API 文档、技术方案、README、用户手册，文字简洁精准，结构清晰易读",
         "en": "API docs, technical proposals, READMEs, user manuals — clear and precise"
       },
-      "promptFile": { "zh": "experts/zh/technical-writer.md", "en": "experts/en/technical-writer.md" },
+      "promptFile": { "zh": "zh/technical-writer.md", "en": "en/technical-writer.md" },
       "avatar": "https://img.shields.io/badge/📝-Technical_Writer-059669?style=for-the-badge&logo=mdx&logoColor=white&labelColor=555555",
       "tags": {
         "zh": ["技术写作", "API文档", "README", "方案"],
