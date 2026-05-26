@@ -1,0 +1,158 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-26",
+  "author": "AgentOS Demo",
+  "paths": {
+    "avatarsPath": "avatars",
+    "expertsPath": "experts"
+  },
+  "statistics": {
+    "totalExperts": 6,
+    "totalCategories": 3
+  },
+  "categories": [
+    {
+      "id": "development",
+      "name": { "zh": "开发", "en": "Development" },
+      "description": { "zh": "各类编程语言与技术栈的开发专家", "en": "Programming & tech stack experts" },
+      "icon": "code",
+      "order": 1
+    },
+    {
+      "id": "quality",
+      "name": { "zh": "质量保障", "en": "Quality Assurance" },
+      "description": { "zh": "代码审查、安全审计与质量把关", "en": "Code review, security audit & quality control" },
+      "icon": "shield-check",
+      "order": 2
+    },
+    {
+      "id": "content",
+      "name": { "zh": "内容与文档", "en": "Content & Documentation" },
+      "description": { "zh": "技术写作、文档撰写与内容创作", "en": "Technical writing & content creation" },
+      "icon": "file-text",
+      "order": 3
+    }
+  ],
+  "experts": [
+    {
+      "id": "python-senior",
+      "categoryId": "development",
+      "name": { "zh": "Python 高级工程师", "en": "Senior Python Engineer" },
+      "profession": { "zh": "Python 后端开发", "en": "Python Backend Developer" },
+      "description": {
+        "zh": "精通 Python、FastAPI、异步编程，擅长代码架构设计与性能优化，15 年开发经验",
+        "en": "Expert in Python, FastAPI, async programming, 15 years experience"
+      },
+      "promptFile": { "zh": "experts/zh/python-senior.md", "en": "experts/en/python-senior.md" },
+      "avatar": "https://img.shields.io/badge/🐍-Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=555555",
+      "tags": {
+        "zh": ["Python", "FastAPI", "后端", "异步", "架构"],
+        "en": ["Python", "FastAPI", "Backend", "Async", "Architecture"]
+      },
+      "quickPrompts": {
+        "zh": ["写一个 FastAPI CRUD 接口", "优化这段 Python 代码的性能", "设计一个微服务架构方案"],
+        "en": ["Write a FastAPI CRUD endpoint", "Optimize this Python code", "Design a microservice architecture"]
+      }
+    },
+    {
+      "id": "frontend-senior",
+      "categoryId": "development",
+      "name": { "zh": "前端高级工程师", "en": "Senior Frontend Engineer" },
+      "profession": { "zh": "前端开发", "en": "Frontend Developer" },
+      "description": {
+        "zh": "精通 React、TypeScript、现代 CSS，擅长组件设计与前端工程化，10 年经验",
+        "en": "Expert in React, TypeScript, modern CSS, 10 years experience"
+      },
+      "promptFile": { "zh": "experts/zh/frontend-senior.md", "en": "experts/en/frontend-senior.md" },
+      "avatar": "https://img.shields.io/badge/⚛️-React-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=555555",
+      "tags": {
+        "zh": ["React", "TypeScript", "CSS", "前端工程化"],
+        "en": ["React", "TypeScript", "CSS", "Frontend"]
+      },
+      "quickPrompts": {
+        "zh": ["写一个 React 表单组件", "把这段代码迁移到 TypeScript", "设计一个状态管理方案"],
+        "en": ["Write a React form component", "Migrate this code to TypeScript", "Design a state management solution"]
+      }
+    },
+    {
+      "id": "devops-engineer",
+      "categoryId": "development",
+      "name": { "zh": "DevOps 工程师", "en": "DevOps Engineer" },
+      "profession": { "zh": "运维与基础设施", "en": "Infrastructure & Operations" },
+      "description": {
+        "zh": "精通 Docker、K8s、CI/CD、云原生架构，擅长自动化运维与基础设施即代码",
+        "en": "Expert in Docker, K8s, CI/CD, cloud-native, Infrastructure as Code"
+      },
+      "promptFile": { "zh": "experts/zh/devops-engineer.md", "en": "experts/en/devops-engineer.md" },
+      "avatar": "https://img.shields.io/badge/🐳-DevOps-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=555555",
+      "tags": {
+        "zh": ["Docker", "K8s", "CI/CD", "云原生", "IaC"],
+        "en": ["Docker", "K8s", "CI/CD", "Cloud-Native", "IaC"]
+      },
+      "quickPrompts": {
+        "zh": ["写一个 Dockerfile 和 docker-compose.yml", "设计一个 K8s 部署方案", "搭建 GitHub Actions CI/CD 流水线"],
+        "en": ["Write a Dockerfile and compose file", "Design a K8s deployment", "Setup GitHub Actions CI/CD pipeline"]
+      }
+    },
+    {
+      "id": "code-reviewer",
+      "categoryId": "quality",
+      "name": { "zh": "代码审查专家", "en": "Code Reviewer" },
+      "profession": { "zh": "代码质量保障", "en": "Code Quality Assurance" },
+      "description": {
+        "zh": "专注代码审查，覆盖安全漏洞、性能瓶颈、可维护性、最佳实践，给出具体改进建议",
+        "en": "Focused on code review covering security, performance, maintainability, best practices"
+      },
+      "promptFile": { "zh": "experts/zh/code-reviewer.md", "en": "experts/en/code-reviewer.md" },
+      "avatar": "https://img.shields.io/badge/🔍-Code_Review-8B5CF6?style=for-the-badge&logo=reviews&logoColor=white&labelColor=555555",
+      "tags": {
+        "zh": ["代码审查", "安全", "性能", "可维护性"],
+        "en": ["Code Review", "Security", "Performance", "Maintainability"]
+      },
+      "quickPrompts": {
+        "zh": ["审查这段代码", "这个函数有什么安全问题", "如何重构这段代码使其更可维护"],
+        "en": ["Review this code", "What security issues in this function", "How to refactor for maintainability"]
+      }
+    },
+    {
+      "id": "security-auditor",
+      "categoryId": "quality",
+      "name": { "zh": "安全审计专家", "en": "Security Auditor" },
+      "profession": { "zh": "应用安全", "en": "Application Security" },
+      "description": {
+        "zh": "专注 Web 应用安全、OWASP Top 10、渗透测试、安全架构设计，提供合规与漏洞修复建议",
+        "en": "OWASP Top 10, penetration testing, secure architecture design"
+      },
+      "promptFile": { "zh": "experts/zh/security-auditor.md", "en": "experts/en/security-auditor.md" },
+      "avatar": "https://img.shields.io/badge/🛡️-Security-EF4444?style=for-the-badge&logo=shield&logoColor=white&labelColor=555555",
+      "tags": {
+        "zh": ["安全", "OWASP", "渗透测试", "合规"],
+        "en": ["Security", "OWASP", "Penetration Testing", "Compliance"]
+      },
+      "quickPrompts": {
+        "zh": ["审计这段代码的安全漏洞", "这个 API 设计有什么安全风险", "如何防止 SQL 注入和 XSS 攻击"],
+        "en": ["Audit this code for vulnerabilities", "What security risks in this API", "How to prevent SQL injection and XSS"]
+      }
+    },
+    {
+      "id": "technical-writer",
+      "categoryId": "content",
+      "name": { "zh": "技术文档撰写专家", "en": "Technical Writer" },
+      "profession": { "zh": "技术写作", "en": "Technical Writing" },
+      "description": {
+        "zh": "擅长撰写 API 文档、技术方案、README、用户手册，文字简洁精准，结构清晰易读",
+        "en": "API docs, technical proposals, READMEs, user manuals — clear and precise"
+      },
+      "promptFile": { "zh": "experts/zh/technical-writer.md", "en": "experts/en/technical-writer.md" },
+      "avatar": "https://img.shields.io/badge/📝-Technical_Writer-059669?style=for-the-badge&logo=mdx&logoColor=white&labelColor=555555",
+      "tags": {
+        "zh": ["技术写作", "API文档", "README", "方案"],
+        "en": ["Technical Writing", "API Docs", "README", "Proposals"]
+      },
+      "quickPrompts": {
+        "zh": ["为这个模块写一份 README", "生成这个 API 的接口文档", "把这段内容改写为技术方案"],
+        "en": ["Write a README for this module", "Generate API docs for this endpoint", "Rewrite this as a technical proposal"]
+      }
+    }
+  ]
+}
